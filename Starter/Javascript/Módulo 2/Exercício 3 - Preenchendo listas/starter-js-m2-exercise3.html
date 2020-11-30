@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<!--
+    3º exercício
+
+    A partir do seguinte vetor:
+    var nomes = ["Diego", "Gabriel", "Lucas"];
+    Preencha uma lista (<ul>) no HTML com os itens da seguinte forma:
+
+    ● Diego
+    ● Gabriel
+    ● Lucas
+-->
+
+<html>
+
+<head>
+    <title>Starter - Javascript - M2 - E3</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Lucas Mendonça Dias">
+</head>
+
+<body>
+    <ul></ul>
+    <script>
+        function adcLista(nomes) {
+            var ul = document.querySelector('ul');
+            for (let i = 0; i < nomes.length; i++) {
+                var li = document.createElement('li');
+                var name = document.createTextNode(nomes[i]);
+                li.appendChild(name);
+                ul.appendChild(li);
+            }
+        }
+
+        var nomes = ["Diego", "Gabriel", "Lucas"];
+        adcLista(nomes);
+    </script>
+</body>
+
+</html>
