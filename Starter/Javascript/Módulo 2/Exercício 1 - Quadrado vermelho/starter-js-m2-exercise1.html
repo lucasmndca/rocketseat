@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<!--
+    1º exercício
+
+    Crie um botão que ao ser clicado cria um novo elemento em tela com a 
+    forma de um quadrado vermelho com 100px de altura e largura. Sempre 
+    que o botão for clicado um novo quadrado deve aparecer na tela.
+ 
+-->
+
+<html>
+
+<head>
+    <title>Starter - Javascript - M2 - E1</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Lucas Mendonça Dias">
+</head>
+
+<body>
+    <button>Criar quadrado vermelho!</button>
+    <script>
+        var btnElement = document.querySelector('button');
+        btnElement.onclick = function() {
+            var quadrado = document.createElement('div');
+
+            quadrado.style.width = '100px';
+            quadrado.style.height = '100px';
+            quadrado.style.backgroundColor = 'red';
+            quadrado.style.margin = '5px 0px';
+
+            var body = document.querySelector('body');
+            body.appendChild(quadrado);
+        }
+    </script>
+</body>
+
+</html>
