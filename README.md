@@ -10,6 +10,11 @@ Contém a seguinte árvore:
       - Exercício 3 - Função de verificação de vetor
       - Exercício 4 - Função anos de estudo
       - Exercício 5 - Função de leitura de objetos
+    - Módulo 2
+      - Exercício 1 - Quadrado vermelho
+      - Exercício 2 - Trocando cores
+      - Exercício 3 - Preenchendo listas
+      - Exercício 4 - Adicionando à lista
   - ES6
   - NodeJs
   - ReactJs
