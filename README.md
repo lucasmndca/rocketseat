@@ -1,7 +1,18 @@
 # Repositório de desafios da Rocketseat
 
+(Atualizado com a nova estrutura gratuíta da Rocketseat)
+
 Contém a seguinte árvore:
 
+- Discover
+  - Cursos gratuítos
+    - Guias estelares
+      - Guia estelar: HTML
+      - Guia estelar: CSS
+      - Guia estelar: GIT
+      - Guia estelar: JS
+      - Guia estelar: Programação
+      - Guia estelar: HTTP
 - Starter
   - Javascript
     - Módulo 1
